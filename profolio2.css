@@ -68,6 +68,7 @@ body {
 .shruti img {
     width: 170px;
     height: 170px; 
+    margin-top: 10px;
     border-radius: 50%;
     border: 8px solid rgb(212, 231, 231);
     display: block;
@@ -84,7 +85,7 @@ body {
     border: 2px solid black;
     position: absolute;
     top: 10px;
-    right: 0;
+    right: 10px;
     cursor: pointer;
 }
 .dwn:hover {
@@ -97,12 +98,15 @@ body {
     justify-content: center;
     gap: 30px;
     position: absolute;
+    top:250px;
     bottom: 5px; 
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
     max-width: 400px;
     cursor: pointer;
+    z-index: 11;
+    
 }
 .social-link svg {
     height: 30px; 
@@ -115,7 +119,10 @@ body {
     margin-top: 200px; /* Push down below the image */
     margin-bottom: 0;
     font-size: 2.5em;
+    
 }
+
+/*About me*/
 .head h3 {
     text-align: center;
     margin: 10px 0 20px;
@@ -132,16 +139,21 @@ body {
     gap: 15px 40px;
     padding: 10px 20px;
     text-align: center;
+    
 }
+
+/* num,mail,linkedin*/
 .info h4 {
     margin: 5px 0;
     font-size: 0.9em;
+    color: black;
 }
 
 /* ==================================== */
 /* === Main Content Layout (Desktop) === */
 /* ==================================== */
 
+/*tech skill, ss, languages*/
 .main-layout {
     display: flex;
     justify-content: space-between;
@@ -149,6 +161,7 @@ body {
     max-width: 1200px;
     margin: 30px auto;
     gap: 40px; 
+    color: black;
 }
 
 .main-column {
@@ -167,6 +180,7 @@ body {
     font-size: 1.1em;
     color: black;
     margin-top: 30px;
+    
     margin-bottom: 15px;
     padding-left: 0;
 }
@@ -175,7 +189,7 @@ body {
 .aboutme p, .job-description {
     font-size: 1em;
     margin-left: 40px; /* Indent content */
-    color: rgba(0, 0, 0, 0.669);
+    color: black;
 }
 
 .degree-title, .job-title {
@@ -207,6 +221,7 @@ body {
 .lang, .skill, .appu {
     margin-left: 20px;
     padding: 0;
+    text-align: center;
     list-style: disc;
     margin-top: 10px;
 }
@@ -222,10 +237,11 @@ body {
 .Contact {
     padding: 20px 0;
     margin-top: 30px;
-    width: 100%;
+    margin-left: 150px;
+    width: 70%;
 }
 .Contact h2 {
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
     font-size: 1.2em;
 }
@@ -323,8 +339,7 @@ body {
     cursor: pointer; 
     font-family: Arial, sans-serif;
     height: 40px;
-    width: 80%; 
-    margin: 5px 0; 
+     margin: 5px 0; 
     position: static; 
 }
 
